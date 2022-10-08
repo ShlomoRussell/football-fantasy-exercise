@@ -26,5 +26,14 @@ const PlayerPositionsEnum = {
     Defender: "Defender",
     Goalkeeper: "Goalkeeper"
 };
+/**
+ * @typedef userObject
+ * @type {object}
+ * @property {string} first - first name.
+ * @property {string} last - last name.
+ * @property {string} email
+ * @property {string} password
+ * @property {Array} playerIds 
+ */
 
 exports.PlayerPositionsEnum = PlayerPositionsEnum;
